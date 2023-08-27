@@ -4,13 +4,13 @@ import {Swiper, SwiperSlide} from 'swiper/react'
 // import Ecommerce from '../../img/ecommerce.png'
 
 import HOC from '../../img/hoc.png'
-import MusicApp from '../../img/musicapp.png'
+// import MusicApp from '../../img/musicapp.png'
 import 'swiper/css'
 import { themeContext } from "../../Context";
 import { useContext } from "react";
-import { Link } from 'react-router-dom'
 import Foodapp from '../../img/food-app-startup-idea.jpg'
 import Hotstar from '../../img/disney-hotstar.jpg'
+import bookstore from '../../img/bookstore.jpg'
 
 
 const Portfolio = () => {
@@ -43,7 +43,7 @@ const Portfolio = () => {
               
 
                <SwiperSlide>
-                <img src={MusicApp} alt="" />
+             <a href="https://bookstore-frontend-cjej.onrender.com" target='_blank' id='bookstore_img'>   <img src={bookstore} alt=""/></a>
                </SwiperSlide>
 
                <SwiperSlide>

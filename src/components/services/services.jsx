@@ -7,7 +7,7 @@ import Resume from './resume.pdf'
 import { themeContext } from "../../Context";
 import { useContext } from "react";
 import {motion, spring} from 'framer-motion' 
-import { Link } from 'react-router-dom'
+
 
 
 const Services = () => {

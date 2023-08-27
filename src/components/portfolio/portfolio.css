@@ -11,6 +11,7 @@
     color: var(--black);
     font-size: 2rem;
     font-weight: bold;
+    
 }
 
 .portfolio span:nth-of-type(2){
@@ -34,5 +35,8 @@
 }
 
 .portfolio img{
-    width: 19rem;
+    /* width: 19rem; */
+    width: 400px;
+    height: 300px;
+
 }
