@@ -20,12 +20,13 @@ const Knowledge = () => {
        <span style={{color: darkMode? 'white': ''}}>I Have </span>
        <span>Good Knowledge In</span>
        <span>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        <br />
-        Reprehenderit quae enim commodi corrupti? Temporibus veritati
-       </span>
+       React Js, JavaScript, HTML, and CSS, proficiently crafting <br />dynamic and responsive web applications.
+        Adept at leveraging <br />React's component-based architecture  to create engaging<br /> user interfaces 
+        while ensuring seamless integration with<br /> well-structured code and optimal user experiences.
+          </span>
 
-       <button className='button s-button'>Hire Me </button>
+    
+          <a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRlRHrHHPnrRskgdRSWHgXvGdDTLtrrXzsMsrcdhBMXZnWzMFntQgRplDCZrzjDvGFMCrFL"  target="_blank"> <button className='button s-button'>Hire Me </button> </a>
        <div className="blur s-blurl" style={{background: "#ABF1FF94"}}></div>
        </div>
 

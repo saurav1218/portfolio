@@ -7,6 +7,7 @@ import Resume from './resume.pdf'
 import { themeContext } from "../../Context";
 import { useContext } from "react";
 import {motion, spring} from 'framer-motion' 
+import { Link } from 'react-router-dom'
 
 
 const Services = () => {
@@ -23,9 +24,10 @@ const transition = {duration : 1, type: 'spring'}
        <span style={{color: darkMode? 'white': ''}}>My Awesome</span>
        <span>Services</span>
        <span>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        <br />
-        Reprehenderit quae enim commodi corrupti? Temporibus veritati
+        
+I provide services encompassing ReactJS, JavaScript, HTML, and CSS. <br />
+Additionally, I possess foundational expertise in Node.js, Express.js, <br /> and MongoDB, enabling me
+ to build comprehensive web applications <br /> that seamlessly integrate frontend and backend components 
        </span>
        <a href={Resume} download>
        <button className='button s-button'>Download CV</button>

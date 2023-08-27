@@ -32,11 +32,11 @@ const Intro = () => {
                  producting the Quality work</span>
             </div>
 
-        <button className="button i-button"> Hire me</button>
+            <a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRlRHrHHPnrRskgdRSWHgXvGdDTLtrrXzsMsrcdhBMXZnWzMFntQgRplDCZrzjDvGFMCrFL"  target="_blank">  <button className="button i-button"> Hire me</button></a>
             <div className="i-icons">
-                <img src={Github} alt="" />
-                <img src={LinkedIn} alt="" />
-                <img src={Instagram} alt="" />
+              <a href="https://github.com/saurav1218?tab=repositories" target="_blank">  <img src={Github} alt="" /></a>
+              <a href="https://www.linkedin.com/in/saurav1218/" target="_blank">    <img src={LinkedIn} alt="" /></a>
+              <a href="https://www.instagram.com/saurav1218/" target="_blank">   <img src={Instagram} alt="" /></a>
             </div>
 
             </div>

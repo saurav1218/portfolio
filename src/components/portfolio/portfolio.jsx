@@ -1,12 +1,16 @@
 import './portfolio.css'
 import {Swiper, SwiperSlide} from 'swiper/react'
-import Sidebar from '../../img/sidebar.png'
-import Ecommerce from '../../img/ecommerce.png'
+// import Sidebar from '../../img/sidebar.png'
+// import Ecommerce from '../../img/ecommerce.png'
+
 import HOC from '../../img/hoc.png'
 import MusicApp from '../../img/musicapp.png'
 import 'swiper/css'
 import { themeContext } from "../../Context";
 import { useContext } from "react";
+import { Link } from 'react-router-dom'
+import Foodapp from '../../img/food-app-startup-idea.jpg'
+import Hotstar from '../../img/disney-hotstar.jpg'
 
 
 const Portfolio = () => {
@@ -26,13 +30,17 @@ const Portfolio = () => {
             grabCursor={true}
             className='portfolio-slider'
             >
+               
                <SwiperSlide>
-                <img src={Sidebar} alt="" />
+  <a href="https://hotstar-clone-mo21.onrender.com" target='_blank'><img src={Hotstar} alt="" /></a> 
                </SwiperSlide>
 
-               <SwiperSlide>
-                <img src={Ecommerce} alt="" />
-               </SwiperSlide>
+              <SwiperSlide>
+           <a href="https://mern-food-app-frontend.onrender.com/" target='_blank'> <img src={Foodapp} alt="" /> </a> 
+              </SwiperSlide>
+               
+
+              
 
                <SwiperSlide>
                 <img src={MusicApp} alt="" />
