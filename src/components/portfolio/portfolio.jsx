@@ -11,7 +11,8 @@ import { useContext } from "react";
 // import { Link } from 'react-router-dom'
 import Foodapp from '../../img/food-app-startup-idea.jpg'
 import Hotstar from '../../img/disney-hotstar.jpg'
-
+import bookmyshow from '../../img/bookmyshow1.jpg'
+import bookstore from '../../img/bookstore.jpg'
 
 const Portfolio = () => {
     const theme = useContext(themeContext)
@@ -40,15 +41,15 @@ const Portfolio = () => {
               </SwiperSlide>
                
 
+              <SwiperSlide>
+              <a href="https://bookstore-frontend-cjej.onrender.com" target='_blank'>       <img src={bookstore} alt="" /> </a>
+               </SwiperSlide>
+
+               <SwiperSlide>
+               <a href="https://bookmyshow-frontend-dude.onrender.com" target='_blank'>    <img src={bookmyshow} alt="" /> </a>
+               </SwiperSlide>
+
               
-
-               <SwiperSlide>
-                <img src={MusicApp} alt="" />
-               </SwiperSlide>
-
-               <SwiperSlide>
-                <img src={HOC} alt="" />
-               </SwiperSlide>
 
             </Swiper>
         </div>
