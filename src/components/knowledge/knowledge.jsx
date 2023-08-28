@@ -26,7 +26,7 @@ const Knowledge = () => {
           </span>
 
     
-          <a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRlRHrHHPnrRskgdRSWHgXvGdDTLtrrXzsMsrcdhBMXZnWzMFntQgRplDCZrzjDvGFMCrFL"  target="_blank"> <button className='button s-button'>Hire Me </button> </a>
+          <a href="https://wa.me/918770026926"  target="_blank"> <button className='button s-button'>Hire Me </button> </a>
        <div className="blur s-blurl" style={{background: "#ABF1FF94"}}></div>
        </div>
 

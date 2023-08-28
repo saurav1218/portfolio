@@ -1,12 +1,12 @@
 import './services.css'
 import HeartEmoji from '../../img/heartemoji.png'
-import Glasses from '../../img/glasses.png'
-import Humble from '../../img/humble.png'
+// import Glasses from '../../img/glasses.png'
+// import Humble from '../../img/humble.png'
 import Card from '../card/card'
 import Resume from './resume.pdf'
 import { themeContext } from "../../Context";
 import { useContext } from "react";
-import {motion, spring} from 'framer-motion' 
+import {motion} from 'framer-motion' 
 // import { Link } from 'react-router-dom'
 
 
