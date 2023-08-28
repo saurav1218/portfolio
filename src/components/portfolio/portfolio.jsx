@@ -33,7 +33,7 @@ const Portfolio = () => {
             >
                
                <SwiperSlide>
-  <a href="https://hotstar-clone-mo21.onrender.com" target='_blank'><img src={Hotstar} alt="" /></a> 
+  <a href="https://hotstar-clone-frontend.onrender.com" target='_blank'><img src={Hotstar} alt="" /></a> 
                </SwiperSlide>
 
               <SwiperSlide>
