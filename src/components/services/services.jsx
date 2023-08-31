@@ -1,7 +1,7 @@
 import './services.css'
 import HeartEmoji from '../../img/heartemoji.png'
 // import Glasses from '../../img/glasses.png'
-// import Humble from '../../img/humble.png'
+import Humble from '../../img/humble.png'
 import Card from '../card/card'
 import Resume from './Saurav_Mishra_Resume.pdf'
 import { themeContext } from "../../Context";
